@@ -18,7 +18,7 @@ Smart contract files are located in /protocols/USDe/contracts
 ## Gitbook
 To get an overview of Ethena, please visit our gitbook: https://ethena-labs.gitbook.io/ethena-labs
 
-## Goal
+## Goal APY%-7D-14D-30D-366D
 
 Ethena's synthetic dollar, USDe, will provide the first censorship resistant, scalable and stable crypto-native solution for money achieved by delta-hedging staked Ethereum collateral. USDe will be fully backed transparently onchain and free to compose throughout DeFi.
 
