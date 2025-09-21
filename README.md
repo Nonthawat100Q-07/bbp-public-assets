@@ -1,8 +1,9 @@
 # Table of contents TON-USDe DeFi B
 
-- Files within scope of audit
-- Goals of Ethena Protocol
+-  🤑
 - Gitbook:USDe
+- Goals of Ethena Protocol
+- Files within scope of audit
 - How we generate yield
 - Maintain delta neutrality
 - Contracts architecture
