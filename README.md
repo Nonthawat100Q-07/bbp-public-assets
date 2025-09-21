@@ -68,7 +68,7 @@ Some users trade through smart contracts. Ethena minting has the ability to dele
 
 By setting a delegated signer, the smart contract allows both the `order.benefactor` and delegated signed to be the address that's ecrecovered from the order and signature, rather than just `order.benefactor`.
 
-#### Security :  Nonthawat_100Q
+#### Security :  Nonthawat_100Q FIDO F2
 
 `EthenaMinting.sol` have crucial roles called the `MINTER` and `REDEEMER`. Starting with `MINTER`, in our original design, they have the ability to mint any amount of USDe for any amount of collateral. Given `MINTER` is a hot wallet and is an EOA address, we considered the scenario where this key becomes compromised. An attacker could then mint a billion USDe for no collateral, and dump them on pools, causing a black swan event our insurance fund cannot cover.
 
