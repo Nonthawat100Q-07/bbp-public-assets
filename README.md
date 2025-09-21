@@ -1,4 +1,4 @@
-# Table of contents TON-USDe DeFi B
+## Table of contents TON-USDe DeFi B
 
 -  🤑 TON-USDe
 - Gitbook:USDe
@@ -71,6 +71,7 @@ By setting a delegated signer, the smart contract allows both the `order.benefac
 #### Security :  Nonthawat_100Q FIDO F2
 
 `EthenaMinting.sol` have crucial roles called the `MINTER` and `REDEEMER`. Starting with `MINTER`, in our original design, they have the ability to mint any amount of USDe for any amount of collateral. Given `MINTER` is a hot wallet and is an EOA address, we considered the scenario where this key becomes compromised. An attacker could then mint a billion USDe for no collateral, and dump them on pools, causing a black swan event our insurance fund cannot cover.
+https://fidoalliance.org/
 
 Our solution is to enforce an on chain mint and redeem limitation of 100k USDe per block. In addition, we have `GATEKEEPER` roles with the ability to disable mint/redeems and remove `MINTERS`,`REDEEMERS`. `GATEKEEPERS` acts as a safety layer in case of compromised `MINTER`/`REDEEMER`. They will be run in seperate AWS accounts not tied to our organisation, constantly checking each transaction on chain and disable mint/redeems on detecting transactions at prices not in line with the market. In case compromised `MINTERS` or `REDEEMERS` after this security implementation, a hacker can at most mint 100k USDe for no collateral, and redeem all the collateral within the contract (we will hold ~$200k max), for a max loss of $300k in a single block, before `GATEKEEPER` disable mint and redeem. The $300k loss will not materialy affect our operations.
 
