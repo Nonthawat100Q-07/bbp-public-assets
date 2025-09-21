@@ -16,6 +16,7 @@ Smart contract files are located in /protocols/USDe/contracts
 `StakedUSDeV2.sol`, the contract it extends, `StakedUSDe.sol` and the additional contract it creates `USDeSilo.sol`
 
 ## Gitbook
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvbuO270NmfS-n2M52s6tw69h8SBpoK9bgudOVXze-bYI9WCZHukYDBqFVSnDIyoLQVFJG1PmtOCvuigVz6CpLsPDlE8W71pv51zbSvSuCFZiYs7vOO-hMaSbvIV0vHEPchQc8QQZAl0Tgv0oNPTGZpxcW93S46UBQZHaKHhZZTZU0wWL8k1Ove3fibM/s89/1000007744.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="400" data-original-height="87" data-original-width="89" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvbuO270NmfS-n2M52s6tw69h8SBpoK9bgudOVXze-bYI9WCZHukYDBqFVSnDIyoLQVFJG1PmtOCvuigVz6CpLsPDlE8W71pv51zbSvSuCFZiYs7vOO-hMaSbvIV0vHEPchQc8QQZAl0Tgv0oNPTGZpxcW93S46UBQZHaKHhZZTZU0wWL8k1Ove3fibM/s400/1000007744.jpg"/></a></div><p>&nbsp;</p>
 To get an overview of Ethena, please visit our gitbook: https://ethena-labs.gitbook.io/ethena-labs
 
 ## Goal APY%-7D-14D-30D-360D
