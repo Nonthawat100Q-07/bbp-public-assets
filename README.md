@@ -34,7 +34,7 @@ If the market goes down 90%, the long 10 stETH position is now worth $2000, down
 
 ## Our 3 Smart contracts
 
-### USDe.sol-USD
+### USDe.sol-USD-TON
 
 `USDe.sol` is the contract of our stablecoin. It extends `ERC20Burnable`, `ERC20Permit` and `Ownable2Step` from Open Zepplin. There's a single variable, the `minter` address that can be modified by the `OWNER`. Outside of `Ownable2Step` contract owner only has one custom function, the ability to set the `minter` variable to any address.
 
