@@ -2,7 +2,7 @@
 
 - Files within scope of audit
 - Goals of Ethena Protocol
-- Gitbook
+- Gitbook:USDe
 - How we generate yield
 - Maintain delta neutrality
 - Contracts architecture
@@ -62,7 +62,7 @@ Some users trade through smart contracts. Ethena minting has the ability to dele
 
 By setting a delegated signer, the smart contract allows both the `order.benefactor` and delegated signed to be the address that's ecrecovered from the order and signature, rather than just `order.benefactor`.
 
-#### Security
+#### Security :  Nonthawat_100Q
 
 `EthenaMinting.sol` have crucial roles called the `MINTER` and `REDEEMER`. Starting with `MINTER`, in our original design, they have the ability to mint any amount of USDe for any amount of collateral. Given `MINTER` is a hot wallet and is an EOA address, we considered the scenario where this key becomes compromised. An attacker could then mint a billion USDe for no collateral, and dump them on pools, causing a black swan event our insurance fund cannot cover.
 
@@ -88,6 +88,7 @@ Due to legal requirements, there's a `SOFT_RESTRICTED_STAKER_ROLE` and `FULL_RES
 
 Note this restriction only applied to staking contract, there are no restrictions or ability to freeze funds of the USDe stablecoin, unlike USDC.
 
-## Owner of Ethena's smart contracts
+## Owner of Ethena's smart contracts 
+@MicroGoldio_100@outlook.co.th![IMG_20250716_070031](https://github.com/user-attachments/assets/23e9187a-fded-4c41-a7ef-f6bf852b3877)
 
 Ethena utilises a gnosis safe multisig to hold ownership of its smart contracts. All multisig keys are cold wallets. We will require 7/10 or more confirmations before transactions are approved. This multisig is purely for the purpose of owning the smart contracts, and will not hold funds or do other on chain actions.
