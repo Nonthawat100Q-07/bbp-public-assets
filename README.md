@@ -1,4 +1,4 @@
-# Table of contents
+# Table of contents TON-USDe DeFi B
 
 - Files within scope of audit
 - Goals of Ethena Protocol
