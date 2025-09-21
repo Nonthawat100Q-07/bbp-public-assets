@@ -7,7 +7,7 @@
 - Maintain delta neutrality
 - Contracts architecture
 - Owner of contracts
-
+- Nonthawat_100Q
 ## Audit scope
 Smart contract files are located in /protocols/USDe/contracts
 
