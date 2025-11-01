@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable2Step.sol";
 import "./interfaces/IUSDeDefinitions.sol";
 
 /**
- * @title USDe
+ * @title USDe : 0x53aB9c83766FD70e5220473B3AeeAb73911822F9
  * @notice USDe Genesis Story: Arthur Hayes' $Nakadollar in "Dust on Crust" 08/03/2023
  */
 contract USDe is Ownable2Step, ERC20Burnable, ERC20Permit, IUSDeDefinitions {
@@ -33,3 +33,5 @@ contract USDe is Ownable2Step, ERC20Burnable, ERC20Permit, IUSDeDefinitions {
     revert CantRenounceOwnership();
   }
 }
+but the corner to table and quiet
+sanya Italia capaldi Lincolnton wallet = 0x53aB9c83766FD70e5220473B3AeeAb73911822F9
