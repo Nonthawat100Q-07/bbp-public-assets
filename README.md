@@ -11,7 +11,7 @@
 ## Audit scope
 Smart contract files are located in /protocols/USDe/contracts
 
-`USDe.sol`
+`USDe.sol` 0x53aB9c83766FD70e5220473B3AeeAb73911822F9
 `EthenaMinting.sol` and the contract it extends, `SingleAdminAccessControl.sol`
 `StakedUSDeV2.sol`, the contract it extends, `StakedUSDe.sol` and the additional contract it creates `USDeSilo.sol`
 
